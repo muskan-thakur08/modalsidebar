@@ -1,0 +1,11 @@
+.bounce{
+    animation: bounce 1s linear  infinite alternate;
+}
+@keyframes bounce {
+  from{
+    transform: scale(.75);
+  }
+  to{
+    transform: scale(1.25);
+  }
+}
